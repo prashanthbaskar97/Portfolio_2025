@@ -35,11 +35,16 @@ const Navbar = () => {
 
       {/* Mobile menu */}
       <ul className={!navOpen ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Education</li>
-        <li className='py-6 text-4xl'>Experience</li>
-        <li className='py-6 text-4xl'>Skills</li>
+        <li className='py-6 text-4xl'>
+          <Link to="/" onClick={handleNavOpen} smooth>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link to="/projects" onClick={handleNavOpen} smooth>
+            Projects
+          </Link>
+        </li>
       </ul>
 
       {/* Social Icons */}
