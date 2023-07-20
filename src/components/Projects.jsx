@@ -126,10 +126,10 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className='justify-center flex flex-row'>
-                            <a href="https://github.com/aiskunks/Jobs_Database/tree/main/Artificial_Intelligence">
+                            <a href="https://github.com/Abhinav-Choudhary1106/TravellingSalesman">
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Github</button>
                             </a>
-                            <a href="https://github.com/aiskunks/Jobs_Database/blob/main/Artificial_Intelligence/FinalProjectReport.pdf">
+                            <a href="https://github.com/Abhinav-Choudhary1106/TravellingSalesman/blob/main/INFO%206205%20Spring%202023%20Project.pdf">
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Project</button>
                             </a>
                         </div>
