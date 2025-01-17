@@ -1,9 +1,9 @@
 import React from 'react'
-import tspProject from '../assets/Projects/TravellingSalesman.png'
-import mapReduce from '../assets/Projects/MapReduce.png'
-import wifiSimulator from '../assets/Projects/WifiSimulator.png'
-import netflixClone from '../assets/Projects/NetflixClone.jpg'
-import jobsDatabase from '../assets/Projects/JobsDatabase.png'
+// import tspProject from '../assets/Projects/TravellingSalesman.png'
+// import mapReduce from '../assets/Projects/MapReduce.png'
+// import wifiSimulator from '../assets/Projects/WifiSimulator.png'
+// import netflixClone from '../assets/Projects/NetflixClone.jpg'
+// import jobsDatabase from '../assets/Projects/JobsDatabase.png'
 
 const Projects = () => {
     return (
