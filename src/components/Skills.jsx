@@ -1,5 +1,5 @@
 import React from 'react'
-import swiftLogo from '../assets/Skills/SwiftLogo.png'
+//import swiftLogo from '../assets/Skills/SwiftLogo.png'
 import javaLogo from '../assets/Skills/JavaLogo.png'
 import springLogo from '../assets/Skills/SpringLogo.png'
 import pythonLogo from '../assets/Skills/PythonLogo.png'
@@ -18,12 +18,12 @@ function Skills() {
             </div>
             
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-8 lg:gap-x-0 text-center py-8 justify-items-center'>
-                <div className='shadow-lg shadow-gray-300 hover:scale-110 duration-500 rounded-md py-3 px-6 border-1 w-40'>
+                {/* <div className='shadow-lg shadow-gray-300 hover:scale-110 duration-500 rounded-md py-3 px-6 border-1 w-40'>
                     <div>
                         <img className='w-20 mx-auto pb-2' src={swiftLogo} alt="Swift logo" />
                         <p>Swift</p>
                     </div>
-                </div>
+                </div> */}
                 <div className='shadow-lg shadow-gray-300 hover:scale-110 duration-500 rounded-md py-3 px-6 border-1 w-40'>
                     <img className='w-20 mx-auto pb-2' src={javaLogo} alt="Java logo" />
                     <p>Java</p>

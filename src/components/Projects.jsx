@@ -17,22 +17,23 @@ const Projects = () => {
                     <div class="rounded overflow-hidden shadow-lg p-2 grid grid-cols-1 content-between">
                         <div>
                             <div class="px-6 pt-4 pb-1">
-                                <div class="font-bold text-xl mb-2">Netflix Clone</div>
+                                <div class="font-bold text-xl mb-2">Atlas </div>
                                 <p class="text-gray-700 text-base">
-                                    A scaled down version of the video streaming API built with Spring Boot.
+                                    Built a scalable REST and GraphQL API for assignment management using SpringBoot.
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-1">
                                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Java</span>
                                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Spring Boot</span>
                                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Spring Security</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JWT</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MySQL</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#RestAPI</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">AWS</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Pulumi</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Git WorkFlow</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">CI/CD</span>
                             </div>
                         </div>
                         <div className='justify-center flex flex-row'>
-                            <a href="https://github.com/gautham-apa/NetflixClone">
+                            <a href="https://github.com/prashanthbaskar97">
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Github</button>
                             </a>
                         </div>
@@ -41,18 +42,20 @@ const Projects = () => {
                     <div class="rounded overflow-hidden shadow-lg p-2 grid grid-cols-1 content-between">
                         <div>
                             <div class="px-6 pt-4 pb-1">
-                                <div class="font-bold text-xl mb-2">Google Map Reduce</div>
+                                <div class="font-bold text-xl mb-2">Passion Hub</div>
                                 <p class="text-gray-700 text-base">
-                                    A simplified implementation of Google's Map Reduce paper by Jeffrey Dean and Sanjay Ghemawat using Golang.
+                                    Built a responsive UI using React hooks,Redux and Material UI for a social media platform
                                 </p>
                             </div>
                             <div class="px-6 pt-4 pb-1">
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Go</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#DistributedSystems</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MERN</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Redux</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">NodeJS</span>
                             </div>
                         </div>
                         <div className='justify-center flex flex-row'>
-                            <a href="https://github.com/gautham-apa/MapReduce">
+                            <a href="https://github.com/prashanthbaskar97/Passion-Hub">
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Github</button>
                             </a>
                         </div>
@@ -61,28 +64,29 @@ const Projects = () => {
                     <div class="rounded overflow-hidden shadow-lg p-2">
                         <div>
                             <div class="px-6 pt-4 pb-1">
-                                <div class="font-bold text-xl mb-2">Medical Plan Service</div>
+                                <div class="font-bold text-xl mb-2">Eventful Andriod Application</div>
                                 <p class="text-gray-700 text-base">
-                                    An API for medical plan contained in a Redis keyvalue store with services for conditional GET, POST, PATCH and DELETE with Google OAuth 2.0 security.
+                                Built a cloud-based microservice with SpringBoot, implementing RESTfulk APIs for real-time event data retreiaval.Developed an
+                                Android application to display events based on user preferences.
                                 </p>
                             </div>
 
                             <div class="px-6 pt-4 pb-1">
                                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Java</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Spring Boot</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Redis</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">OAuth 2.0</span>
-                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#RestAPI</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Andriod</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">REST</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MVC</span>
                             </div>
                         </div>
                         <div className='justify-center flex flex-row'>
-                            <a href="https://github.com/gautham-apa/MedicalPlanAPI">
+                            <a href="https://github.com/prashanthbaskar97">
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Github</button>
                             </a>
                         </div>
                     </div>
 
-                    <div class="rounded overflow-hidden shadow-lg p-2">
+                    {/* <div class="rounded overflow-hidden shadow-lg p-2">
                         <div>
                             <div class="px-6 pt-4 pb-1">
                                 <div class="font-bold text-xl mb-2">Jobs Bot and Database</div>
@@ -107,9 +111,9 @@ const Projects = () => {
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Project</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div class="rounded overflow-hidden shadow-lg p-2">
+                    {/* <div class="rounded overflow-hidden shadow-lg p-2">
                         <div>
                             <div class="px-6 pt-4 pb-1">
                                 <div class="font-bold text-xl mb-2">Travelling Salesman Problem</div>
@@ -133,9 +137,9 @@ const Projects = () => {
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Project</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div class="rounded overflow-hidden shadow-lg p-2 grid grid-cols-1 content-between">
+                    {/* <div class="rounded overflow-hidden shadow-lg p-2 grid grid-cols-1 content-between">
                         <div>
                             <div class="px-6 pt-4 pb-1">
                                 <div class="font-bold text-xl mb-2">Radiation</div>
@@ -158,7 +162,7 @@ const Projects = () => {
                                 <button className='text-center rounded-md px-3 py-1 m-2 bg-[#0a192f] text-white text-md hover:scale-[1.07] duration-500'>Project</button>
                             </a>
                         </div>
-                    </div>        
+                    </div>         */}
 
                 </div>
             </div>

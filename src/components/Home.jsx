@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+
 import { TypeAnimation } from 'react-type-animation'
-import hariImage from '../assets/HariAI.jpg'
+import prashanthImage from '../assets/Prashanth_Baskar.jpeg'
 import scrollGif from '../assets/Gifs/ScrollDown.gif'
 
 const Home = () => {
@@ -18,20 +18,18 @@ const Home = () => {
     }, []);
     return (
             <div className='w-full h-screen bg-[#ffffff] items-center content-center lg:grid lg:grid-cols-3 gap-x-4 gap-y-1 pt-[80px] sm:pb-24'>
-                {/* Hari Photo */}
+                {/* Cover Photo */}
                 <div className='flex flex-auto content-center align-start justify-center'>
-                    <img src={hariImage} alt='Profile image' className='w-120 lg:w-250 rounded-lg' />
+                    <img src={prashanthImage} alt='Profile image' className='w-120 lg:w-250 rounded-lg' />
                 </div>
                 {/* Container */}
                 <div className='min-w-auto max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-1/2 lg:h-full col-span-2'>
                     <div>
                         <p className='text-pink-600'>Hello, my name is</p>
-                        <h1 className='text-4xl lg:text-7xl font-bold text-[#232a41]'>Hariharan Sundaram</h1>
+                        <h1 className='text-4xl lg:text-7xl font-bold text-[#232a41]'>Prashanth Baskar</h1>
                         <TypeAnimation
                             sequence={[
                                 "I'm a Backend Engineer.",
-                                1000,
-                                "I'm a Mobile Engineer.",
                                 1000,
                                 "I'm a Software Engineer.",
                                 1000
@@ -42,7 +40,7 @@ const Home = () => {
                             className='text-4xl sm:text-4xl font-bold text-[#232a41]'
                         />
                         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                            I'm a Mobile and Backend Engineer who is passionate about tackling challenging problems that have a meaningful impact
+                            I'm a Backend Engineer who is passionate about tackling challenging problems that have a meaningful impact
                         </p>
                     </div>
                 </div>

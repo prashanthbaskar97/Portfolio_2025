@@ -1,5 +1,5 @@
 import React from 'react'
-import vtuLogo from '../assets/VTULogo.png'
+import amritaLogo from '../assets/Amrita_Logo.png'
 import northeasternLogo from '../assets/NortheasternLogo.png'
 
 function Education() {
@@ -11,7 +11,7 @@ function Education() {
                 <ol class="relative border-l border-gray-200 dark:border-gray-700">
                     <li class="mb-6 ml-4">
                         <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time class="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2022 - May 2024</time>
+                        <time class="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">September 2023 - May 2025</time>
                         <div className='flex flex-row'>
                             <div className='flex flex-row pt-3'>
                                 <div className='w-24 pr-4 flex-none'>
@@ -19,7 +19,7 @@ function Education() {
                                 </div>
                                 <div>
                                     <p className='text-2xl font-semibold text-[#070912]'>Northeastern University</p>
-                                    <p className='font-italics text-[#070912]'>Master of Science in Computer Software Engineering</p>
+                                    <p className='font-italics text-[#070912]'>Master of Science in Information Systems</p>
                                 </div>
                             </div>
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -31,11 +31,11 @@ function Education() {
                         <div className='flex flex-row'>
                             <div className='flex flex-row pt-3'>
                                 <div className='w-24 pr-4 flex-none'>
-                                    <img className='aspect-auto' src={vtuLogo} alt="Swift logo" />
+                                    <img className='aspect-auto' src={amritaLogo} alt="Swift logo" />
                                 </div>
                                 <div>
-                                    <p className='text-2xl font-semibold text-[#070912]'>Visvesvaraya Technological University</p>
-                                    <p className='font-italics text-[#070912]'>Bachelor of Engineering in Electronics and Communication</p>
+                                    <p className='text-2xl font-semibold text-[#070912]'>Amrita Vishwa Vidyapeetham</p>
+                                    <p className='font-italics text-[#070912]'>Bachelor of Technology in Computer Science Engineering</p>
                                 </div>
                             </div>
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
