@@ -20,7 +20,7 @@ const Home = () => {
             <div className='w-full h-screen bg-[#ffffff] items-center content-center lg:grid lg:grid-cols-3 gap-x-4 gap-y-1 pt-[80px] sm:pb-24'>
                 {/* Cover Photo */}
                 <div className='flex flex-auto content-center align-start justify-center'>
-                    <img src={prashanthImage} alt='Profile image' className='w-120 lg:w-250 rounded-lg' />
+                    <img src={prashanthImage} alt='Profile' className='w-120 lg:w-250 rounded-lg' />
                 </div>
                 {/* Container */}
                 <div className='min-w-auto max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-1/2 lg:h-full col-span-2'>
